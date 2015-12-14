@@ -1,0 +1,23 @@
+.nav-image {
+	background-image: url('./../images/berries.jpg');
+}
+
+p {
+	font-family: 'Source Sans Pro', serif;
+	font-size: 12pt;
+	color: #0A671F;
+}
+
+.title {
+	font-family: ostrich-med;
+	color: #AFABAB;
+	font-size: 30pt;
+	height: 22px;
+}
+
+.headers>div>p {
+	font-size: 28pt;
+	color: #AFABAB;
+	font-family: ostrich-med;
+	margin-bottom: 0;
+}

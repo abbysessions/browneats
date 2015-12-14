@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BrownEats - Home</title>
+        <base href="./">
+        <link rel="shortcut icon" href="images/favocon.ico">
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+        <!-- Optional theme ->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous"-->
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+        <script src="js/home.js"></script>
+        <script src="js/menus.js"></script>
+
+        <!-- FONTS -->
+        <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+
+        
+        <link rel="stylesheet" href="css/navs.css" type="text/css">
+        <link rel="stylesheet" href="css/menu.css" type="text/css">
+        <link rel="stylesheet" href="css/home.css" type="text/css">
+        
+        
+
+    </head>
+
+    <body>
+        <div id = "nav">
+            <div class="nav-image carrots">
+            <div class="img-screen">
+            <nav class="navbar transparent navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a class="logo" href="./index.html">Brown Eats</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="dropdown">Eateries<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./ratty/index.html">Ratty</a></li>
+                                    <li><a href= "./blueroom/index.html">Blue Room</a></li>
+                                    <li><a href="./vdub/index.html">Vdub</a></li>
+                                    <li><a href="./andrews/index.html">Andrews</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li><a href="./mealplans/index.html">Meal Plans</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </nav>
+            </div>
+            </div>
+
+        </div>
+        <div> </div>
+
+        <div class="container menu-outer">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Dinner</h2>
+                </div>
+            </div>
+            <div class="row menu-controls">
+                <div class="col-md-12">
+                    <div id="button-box">
+                        <div class="filter" id="veg-filter"><div class="selected"></div></div>
+                        <div class="filter" id="gluten-filter"><div class="selected"></div></div>
+                        <div class="filter" id="nut-filter"><div class="selected"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-inner">
+                <div class="col-md-3" id="rattycol">
+                    <a href="./ratty/index.html" class="col-title">Ratty</a>
+                </div>
+                <div class="col-md-3" id="blueroomcol">
+                    <a href="./blueroom/index.html" class="col-title">Blue Room</a>
+                </div>
+                <div class="col-md-3" id="vdubcol">
+                    <a  href="./vdub/index.html" class="col-title">VDub</a>
+                </div>
+                <div class="col-md-3" id="andrewscol">
+                    <a href="./andrews/index.html" class="col-title">Andrews</a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+
+</html>
