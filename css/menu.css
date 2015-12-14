@@ -1,0 +1,71 @@
+.menu-outer {
+	width: 80%;
+	padding: 15px;
+}
+
+.menu-inner {
+	padding-top: 25px;
+}
+
+.col-md-3>div {
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #0A671F;
+	font-size: 12pt;
+}
+
+.col-title {
+	font-family: ostrich-med, serif;
+	font-size: 23pt;
+	color: #AFABAB;
+}
+
+.col-title:hover {
+	color: #898383;
+}
+
+.col-md-12>h2 {
+	text-align: center;
+	font-family: ostrich-heavy, serif;
+	color: #AFABAB;
+}
+
+#button-box {
+	width: 255px;
+	padding: 0 15px;
+	height: 65px;
+	margin: 5px auto;
+	background: #EFEDED;
+	border-radius: 21px;
+}
+
+.filter {
+	width: 45px;
+	height:45px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	float: left;
+	margin:10px 15px;
+}
+
+.filter:hover {
+	opacity: .8;
+}
+
+.selected {
+	width: 45px;
+	height: 45px;
+	background-size: cover;
+	background-image: url("./../images/button_selected.png");
+	display:none;
+}
+
+#veg-filter {
+	background-image: url(./../images/veg.png);
+}
+
+#gluten-filter {
+	background-image: url(./../images/glutten.png);
+}
+#nut-filter {
+	background-image: url(./../images/peanut.png);
+}

@@ -1,0 +1,17 @@
+h4, h3, h2, h1, p {
+    font-family: ostrich-med, serif;
+}
+
+* {
+    padding:0;
+    margin:0;
+}
+
+a, a:hover {
+    text-decoration:none;
+}
+
+.nav-image {
+	background-image: url('./../images/carrots.jpg');
+}
+
