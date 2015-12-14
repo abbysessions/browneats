@@ -1,7 +1,3 @@
-.nav-image {
-	background-image: url('./../images/tomatoes.jpg');
-}
-
 .col-md-12>h1 {
 	color: #0A6720;
 	font-family: bebas;
@@ -22,4 +18,20 @@
 
 .right>p {
 	text-align: right;
+}
+
+.blueberries {
+	background-image: url('./../images/blueberries.jpg');
+}
+
+.sriracha {
+	background-image: url('./../images/sriracha.jpg');
+}
+
+.radish {
+	background-image: url('./../images/radishes.jpg');
+}
+
+.carrots {
+	background-image: url('./../images/tomatoes.jpg');
 }

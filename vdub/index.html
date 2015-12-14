@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>BrownEats - Home</title>
-        <base href="./">
+        <title>BrownEats - VDub</title>
+        <base href="./..">
         <link rel="shortcut icon" href="images/favocon.ico">
         
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -13,22 +13,22 @@
 
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-        <script src="js/home.js"></script>
+        <script src="js/menus.js"></script>
+
 
         <!-- FONTS -->
         <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
 
         
         <link rel="stylesheet" href="css/navs.css" type="text/css">
-        <link rel="stylesheet" href="css/home.css" type="text/css">
-        
-        
+        <link rel="stylesheet" href="css/menu.css" type="text/css">
+        <link rel="stylesheet" href="css/ratty.css" type="text/css">
 
     </head>
 
     <body>
         <div id = "nav">
-            <div class="nav-image carrots">
+            <div class="nav-image radish">
             <div class="img-screen">
             <nav class="navbar transparent navbar-default" role="navigation">
                 <div class="container-fluid">
@@ -53,8 +53,58 @@
             </nav>
             </div>
             </div>
+
         </div>
-        <div> </div>
+        <div class="container menu-outer">
+            <div class="row">
+                <div class="col-md-12">
+                    <h1>VDub</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Dinner</h2>
+                </div>
+            </div>
+            <div class="row menu-controls">
+                <div class="col-md-12">
+                    <div id="button-box">
+                        <div class="filter" id="veg-filter"><div class="selected"></div></div>
+                        <div class="filter" id="gluten-filter"><div class="selected"></div></div>
+                        <div class="filter" id="nut-filter"><div class="selected"></div></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row menu-inner">
+                <div class="col-md-3" id="">
+                    <a class="col-title"></a>
+                </div>
+                <div class="col-md-3" id="blueroomcol">
+                    <a class="col-title">Daily Sidebar</a>
+                </div>
+                <div class="col-md-3" id="vdubcol">
+                    <a class="col-title">Main Menu</a>
+                </div>
+                <div class="col-md-3" id="">
+                    <a class="col-title"></a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Monday - Saturday: 7am - 7:30pm</p>
+                    <p>Sunday: 10:30am - 7:30pm</p>
+                </div>
+                <div class="col-md-6 right">
+                    <p>Location:</p>
+                    <p>135 Cushing Street</p>
+                </div>
+            </div>
+        </div>
 
     </body>
 

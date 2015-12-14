@@ -3,7 +3,7 @@ $(document).ready(function(){
 	isNutFiltered = false;
 	isVegFiltered = false;
 
-	home = [
+	ratty = [
 		{
 			colid: "rattycol", 
 			menu: [
@@ -111,6 +111,6 @@ $(document).ready(function(){
         filter("gluten");
     });
 
-	make_menu(home);
+	make_menu(ratty);
 
 });

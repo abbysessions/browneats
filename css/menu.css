@@ -21,6 +21,7 @@
 
 .col-title:hover {
 	color: #898383;
+	text-decoration: none;
 }
 
 .col-md-12>h2 {
